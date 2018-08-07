@@ -1,0 +1,6 @@
+com\samples\restservices\initial\ServerReaderInterceptor1.class
+com\samples\restservices\initial\ServerWriterInterceptor1.class
+com\samples\restservices\initial\Services.class
+com\samples\restservices\initial\Hello.class
+com\samples\restservices\initial\ServerFilter.class
+com\samples\restservices\initial\Track.class
