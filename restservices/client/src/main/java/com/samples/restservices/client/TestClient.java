@@ -34,6 +34,8 @@ public class TestClient {
 		String output_json_get = response_json_get.getEntity(String.class);
 		System.out.println("JSON GET output from server");
 		System.out.println(output_json_get);
+		System.out.println("just check");
+
 	}
 	
 	public void getXMLExample() {

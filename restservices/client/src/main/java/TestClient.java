@@ -20,6 +20,7 @@ public class TestClient {
 	private static WebResource webResource_delete = client.resource("http://localhost:8080/initial/rest/json/metallica/delete");
 	
 	
+	
 	public void getPlainExample() {
 		ClientResponse response = webResource.accept("text/plain")
 				.get(ClientResponse.class);
