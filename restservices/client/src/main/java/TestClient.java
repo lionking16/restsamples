@@ -19,8 +19,7 @@ public class TestClient {
 	private static WebResource webResource_put = client.resource("http://localhost:8080/initial/rest/json/metallica/put");
 	private static WebResource webResource_delete = client.resource("http://localhost:8080/initial/rest/json/metallica/delete");
 	
-	
-	
+		
 	public void getPlainExample() {
 		ClientResponse response = webResource.accept("text/plain")
 				.get(ClientResponse.class);
@@ -119,6 +118,7 @@ public class TestClient {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println("In the main Method");
 		TestClient client = new TestClient();
 		
 		client.getPlainExample();
